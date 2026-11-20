@@ -1,0 +1,14 @@
+node_modules/
+build/
+dist/
+coverage/
+.netlify/
+.DS_Store
+*.log
+
+# Environment variables - never commit secrets
+.env*
+!.env.example
+
+# Izinkan .env.example (template tanpa nilai rahasia) untuk diunggah ke GitHub
+!.env.example
